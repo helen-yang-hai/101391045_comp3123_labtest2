@@ -1,0 +1,81 @@
+#col1{
+    border-radius: 35px;
+    text-align: left;
+    padding-left: 25px;
+    opacity: 80%;
+    background-color: rgb(4, 3, 3);
+}
+
+img{
+    width: 150px;
+}
+
+#row{
+    border-radius: 35px;
+    width: 800px;
+    background-color: rgb(212, 210, 210);
+}
+
+#col2 h3, #col3 h3{
+    font-size: 20px;
+    padding: 0 60px;
+}
+
+#col2 h3{
+    text-align: left;
+    padding: 0 40px;
+}
+
+#col1 h3{
+    font-size: 16px;
+}
+
+#col1 h2{
+    font-size: 24px;
+}
+
+#col3 h3{
+    text-align: right;
+}
+
+#col1 h3, #col1 h2, #col1 h1{
+    color: white
+}
+
+#forecast{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 1ch;
+}
+
+#day{
+    padding: 10px;
+    text-align:center;
+}
+
+#forecastPart{
+    background-color: rgb(32, 29, 29);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+#today-left h3{
+    font-size: 18px;
+}
+
+#today-right h3{
+    font-size: 18px;
+}
+
+#today-left {
+    padding-top: 10px;
+}
+
+#today-right {
+    padding-top: 10px;
+}
